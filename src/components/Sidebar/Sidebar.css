@@ -1,0 +1,101 @@
+.sidebar {
+  position: relative;
+  width: fit-content;
+  padding: 5px 5px;
+  width: 20%;
+  height: 92vh;
+}
+.accountDetails {
+  display: flex;
+  position: relative;
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 25px;
+  padding: 0 10px;
+}
+
+.accountIcon {
+  border: 1px solid rgb(143, 143, 143);
+  padding: 2px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.accountDetail {
+  position: relative;
+  gap: 5px;
+  cursor: pointer;
+}
+.userName {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+.userEmail {
+  font-size: 16px;
+  letter-spacing: 0.3px;
+}
+.sidebarSearch {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.sidebarSearchInput {
+  padding: 8px;
+  width: 100%;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgb(231, 231, 231);
+  font-size: 16px;
+}
+.sidebarItemList {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 3px;
+}
+
+.sidebarItem {
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: rgb(214, 214, 214);
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sidebarItemIcon {
+  color: teal;
+  font-size: 26px !important;
+}
+.sidebarAddTask {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  bottom: 5px;
+  background-color: #dfdfdf;
+  border: 1px solid rgb(143, 143, 143);
+  width: 95%;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.sidebarItemAddTitle {
+}
+.active {
+  color: white;
+  background-color: teal;
+  transition: 0.5s;
+}
