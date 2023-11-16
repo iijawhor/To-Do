@@ -1,0 +1,31 @@
+.myTasks {
+  position: relative;
+  width: 100%;
+  padding: 5px 5px;
+}
+.taskHeader {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+.taskHeaderLeft {
+  position: relative;
+}
+.taskHeaderTitle {
+  font-size: 22px;
+  color: teal;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.taskDate {
+  font-size: 18px;
+  margin-top: 3px;
+}
+.taskHeaderMoreIcon {
+  color: teal;
+  font-size: 35px !important;
+  cursor: pointer;
+}
