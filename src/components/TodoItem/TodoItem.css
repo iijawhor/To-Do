@@ -1,0 +1,33 @@
+.todoItem {
+  position: relative;
+  display: flex;
+  border: 1px solid rgb(183, 183, 183);
+  gap: 10px;
+  padding: 1px 5px;
+  background-color: gainsboro;
+  border-radius: 10px;
+  margin-bottom: 3px;
+}
+.todoInputField {
+  width: 100%;
+}
+.todoItemRight {
+  display: flex;
+}
+.todoInputField {
+  display: flex;
+  position: relative;
+  gap: 3px;
+}
+.todoText {
+  width: 100%;
+  padding: 12px 0px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background-color: gainsboro;
+  cursor: default;
+}
+.todoItemCheckbox {
+  cursor: pointer;
+}

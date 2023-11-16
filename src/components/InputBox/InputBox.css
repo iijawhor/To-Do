@@ -1,0 +1,35 @@
+.inputBox {
+  position: absolute;
+  width: 99%;
+  bottom: 10px;
+  border-radius: 10px;
+  background-color: rgb(229, 229, 229);
+}
+.inputBoxForm {
+  border: 1px solid teal;
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 5px;
+  width: 100%;
+  border-radius: 10px;
+}
+.InputBoxIcon {
+  font-size: 35px !important;
+  color: teal;
+}
+.inputBoxFormInput {
+  width: 100%;
+  padding: 15px 10px;
+  border: none;
+  background-color: rgb(229, 229, 229);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 17px;
+  outline: none;
+}
+.inputBoxFormInput::placeholder {
+  font-size: 20px;
+  color: black;
+  letter-spacing: 0.5px;
+}

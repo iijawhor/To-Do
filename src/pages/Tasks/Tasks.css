@@ -8,7 +8,7 @@
   position: relative;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 30px;
+  padding: 10px 0px 12px 30px;
 }
 .taskHeaderLeft {
   position: relative;
@@ -28,4 +28,15 @@
   color: teal;
   font-size: 35px !important;
   cursor: pointer;
+}
+.taskTodoContainer {
+  position: relative;
+  width: 95%;
+  margin: auto;
+  height: 70vh;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
 }
