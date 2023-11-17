@@ -11,9 +11,7 @@
 .todoInputField {
   width: 100%;
 }
-.todoItemRight {
-  display: flex;
-}
+
 .todoInputField {
   display: flex;
   position: relative;
@@ -21,13 +19,32 @@
 }
 .todoText {
   width: 100%;
-  padding: 12px 0px;
+  padding: 12px 10px;
   border: none;
   outline: none;
   font-size: 18px;
   background-color: gainsboro;
   cursor: default;
 }
-.todoItemCheckbox {
+.todoItemButtons {
   cursor: pointer;
+  display: flex;
+  height: 30px;
+  margin: auto;
+  gap: 5px;
+  padding: 2px 10px;
+  text-align: center;
+}
+.todoItemEditIcon,
+.todoItemDeleteIcon {
+  cursor: pointer;
+}
+.todoItemDeleteIcon {
+  color: rgb(188, 49, 49);
+}
+.editInput {
+  background-color: rgb(229, 229, 229);
+}
+.isChecked {
+  text-decoration: line-through;
 }

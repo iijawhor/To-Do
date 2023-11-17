@@ -15,8 +15,20 @@ function App() {
     );
   };
 
+  const updateTodo = (id, todo) => {
+    setTodos((prevTodo) =>
+      prevTodo.map((todoItem) => (todoItem.id === id ? todo : todoItem))
+    );
+  };
+
+  const deleteTodo = (id) => {
+    setTodos((prevTodo) => prevTodo.filter((todoItem) => todoItem.id !== id));
+  };
+
   return (
-    <TodoProvider value={{ todos, addTodo, toggleTodo }}>
+    <TodoProvider
+      value={{ todos, addTodo, toggleTodo, updateTodo, deleteTodo }}
+    >
       <div className="App">
         <h1 className="appHeaderTitle">Manage Your Tasks</h1>
         <Home />
